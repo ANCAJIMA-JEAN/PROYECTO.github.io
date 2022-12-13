@@ -62,7 +62,7 @@ button:hover{
 }
 #REDES{
     height: 500px;
-    background-image: url(/imagenes/rede.png);
+    background-image: url(rede.png);
     background-size: cover;
     background-position: center;
 }
