@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-- menu principal ------------------*/
+
+.menu{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    padding-right:10px ;
+    background-color: rgba(2, 3, 44, 0.719);
+    padding-bottom:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.LOGO {
+    display: flex; 
+    align-items: center;  
+}
+.LOGO img{
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+}
+.LOGO h1{
+    color: white;
+    font-family: arial;
+}
+#COMPRA{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    font-family: monospace;
+    background-color: brown;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px  3px 37px rgba(32, 22, 168, 0.5);
+    margin-left: 500px;
+}
+button:hover{
+    background-color: white;
+    cursor: pointer;
+    color: brown;
+}
+.link{
+    padding: 10px;
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    font-family: arial;
+    margin-right: 10px;
+}
+.link:hover{
+    background-color: rgba(240, 255, 255, 0.466);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#REDES{
+    height: 500px;
+    background-image: url(/imagenes/rede.png);
+    background-size: cover;
+    background-position: center;
+}
+#REDES h1{
+    padding-top:100px ;
+    margin-left: 200px;
+    color: white;
+    font-family: monospace;
+    font-size: 50px;
+    
+}
+#REDES p {
+    margin-left: 200px;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#REDES a:hover{
+    color:white;
+    background-color: rgb(85, 84, 84);
+}
+
+.contenedor {
+    width: 100%;
+    overflow: hidden;
+    padding: 60px;
+}
+.ofrecemos{
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+    margin-bottom: 40px;
+    font-size: 50px;
+    padding: 0;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cont-expert img{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+.cont-expert{
+    margin-bottom: 20px;
+    align-items: center;
+}
+.letras{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+    color: rgb(7, 7, 44);
+    font-family: arial;
+}
+/*mas info+*/
+#contenedor2{
+    background-color: rgb(22, 22, 22);
+}
+#catalogo{
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 40px;
+    padding: 0;
+}
+#catalogo-1{
+    color: rgb(102, 12, 12);
+    margin-right: 10px;
+}
+#catalogo-2{
+    color: white;
+}
+/*cartas*/
+.contenedor3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.diseño{
+    width: 300px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 10px rgb(194, 13, 13);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.diseño:hover{
+    box-shadow: 5px 5px 20px rgb(194, 13, 13);
+    transform: translatey(-5%);
+}
+.PROGRAMAS{
+    padding-top: 5px;
+    display: block;
+    margin: auto;
+    width: 230px;
+    height: 210px;
+}
+.mas-info{
+    margin-top:5px ;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parrafo{
+    padding: 10px;
+    font-family: sans-serif;
+}
+/*final*/
+.footer{
+    margin: 0;
+    background-color:rgb(6, 6, 56);
+    padding-top: 50px  ;
+}
+.contenedor-final{
+    max-width: 1170px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.PAGINA{
+    margin-top: 50px;
+    margin-right: 50px ;
+    width: 25%;
+    padding: 0 15px;
+    font-family: arial;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    position: relative;
+}
+.columnas{
+    width: 25%;
+    padding: 0 15px;
+}
+.columnas h4{
+    font-family: arial;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    position: relative;
+}
+.columnas ul li a {
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(73, 72, 72);
+    text-decoration: none;
+    display: block;
+    font-weight: 300;
+}
+#copi{
+    color: wheat;
+    display: flex;
+    justify-content: flex-end;
+}
+.columnas p{
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: darkslategray;
+}
+.yo:hover{
+
+  text-decoration: underline;
+    color: white;
+}
+
+#FORMULARIO{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    font-family: monospace;
+    background-color: brown;
+    border: none;
+    border-radius: 10px;
+}
+#FORMULARIO:hover{
+    color: rgb(97, 15, 15);
+    background-color: white;
+    cursor: pointer;
+}
